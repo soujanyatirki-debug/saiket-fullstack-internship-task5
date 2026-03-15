@@ -1,0 +1,10 @@
+CREATE DATABASE userdb1;
+
+USE userdb1;
+
+CREATE TABLE users(
+id INT AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(100),
+email VARCHAR(100),
+age INT
+);
